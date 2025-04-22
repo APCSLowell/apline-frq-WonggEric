@@ -1,7 +1,7 @@
 public class APLine
 {
   /* your code here */
-  private int myA,myB,mcC;
+  private int myA,myB,mYC;
   private boolean isOnLine;
   public APLine(int a,int b, int c){
     myA = a;
@@ -14,7 +14,7 @@ public class APLine
   }
 
   public boolean isOnline(int x, int y){
-    if((myA(x)+myB(y)+myC)==0)
+    if(myA*x+myB*y+myC)==0)
       isOnLine = true;
     else
       isOnLine = false;

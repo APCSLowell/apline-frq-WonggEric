@@ -1,7 +1,7 @@
 public class APLine
 {
   /* your code here */
-  private int myA,myB,mYC;
+  private int myA,myB,myC;
   private boolean isOnLine;
   public APLine(int a,int b, int c){
     myA = a;

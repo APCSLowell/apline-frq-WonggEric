@@ -13,7 +13,7 @@ public class APLine
     return -(double)myA/myB;
   }
 
-  public boolean isOnline(int x, int y){
+  public boolean isOnLine(int x, int y){
     if((myA*x+myB*y+myC)==0)
       onLine = true;
     else

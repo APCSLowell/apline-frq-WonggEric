@@ -18,5 +18,7 @@ public class APLine
       isOnLine = true;
     else
       isOnLine = false;
+
+    return isOnLine;
   }
 }

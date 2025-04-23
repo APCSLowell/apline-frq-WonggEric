@@ -2,12 +2,12 @@ public class APLine
 {
   /* your code here */
   private int myA,myB,myC;
-  private boolean isOnLine;
+  private boolean onLine;
   public APLine(int a,int b, int c){
     myA = a;
     myB = b;
     myC = c;
-    isOnLine = false;
+    onLine = false;
   }
   public double getSlope(){
     return -(double)myA/myB;
@@ -15,10 +15,10 @@ public class APLine
 
   public boolean isOnline(int x, int y){
     if((myA*x+myB*y+myC)==0)
-      isOnLine = true;
+      onLine = true;
     else
-      isOnLine = false;
+      onLine = false;
 
-    return isOnLine;
+    return onLine;
   }
 }
